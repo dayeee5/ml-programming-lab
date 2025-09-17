@@ -8,3 +8,12 @@
 - 📝 주제: 대표적인 머신러닝 데이터셋 실습  
 - 📊 데이터셋: Boston Housing, Breast Cancer, Car Evaluation, Diabetes, Iris  
 - 📂 주요 파일: `week2/boston.ipynb`, `week2/iris.ipynb` 등
+
+
+🗂 Week 3
+	•	📝 주제: 머신러닝 분류와 회귀 실습
+	•	📊 데이터셋: Raisin Dataset, Weather Dataset
+	•	📂 주요 파일:
+	  •	week3/Raisin.ipynb
+	  •	week3/weather_classfication.ipynb
+	  •	week3/weather_regression.ipynb
