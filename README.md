@@ -5,8 +5,6 @@
 
 <br>
 
-
-
 ## 🗂 Week 2
 - 📝 주제: 대표적인 머신러닝 데이터셋 실습  
 - 📊 데이터셋: Boston, Breast Cancer, Car Evaluation, Diabetes, Iris  
