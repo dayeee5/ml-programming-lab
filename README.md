@@ -23,3 +23,16 @@
   - `week3/Raisin.ipynb`  
   - `week3/weather_classfication.ipynb`  
   - `week3/weather_regression.ipynb`
+
+
+## 🗂 Week 4
+- 📝 주제: 와인/유방암 데이터셋을 활용한 머신러닝 & 딥러닝 분류 실습  
+- 📊 데이터셋: Wine Quality (Red/White), Breast Cancer  
+- 📂 주요 파일:  
+  - `week4/ML_wine_quality.ipynb`  
+    - 와인 데이터셋으로 **4가지 머신러닝 분류**
+    - 로지스틱 회귀의 **기울기(Coefficients) & 절편(Intercept)** 출력  
+  - `week4/DL_wine_quality.ipynb`  
+    - 와인 데이터셋으로 **딥러닝 분류 (Fully Connected Layer만 사용)**   
+  - `week4/DL_breast_cancer.ipynb`  
+    - 유방암 데이터셋으로 **딥러닝 분류 (Fully Connected Layer만 사용)**  
