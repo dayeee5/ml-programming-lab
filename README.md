@@ -35,4 +35,6 @@
   - `week4/DL_winequality_white.ipynb`  
     - 화이트 와인 데이터셋으로 **딥러닝 분류**  (Fully Connected Layer만 사용)  
   - `week4/DL_breast_cancer.ipynb`  
-    - 유방암 데이터셋으로 **딥러닝 분류**  (Fully Connected Layer만 사용)  
+    - 유방암 데이터셋으로 **딥러닝 분류**  (Fully Connected Layer만 사용)
+    - ⭐️ 'softmax' -> 'sigmoid' 로 수정
+    - ⭐️ 'categorical_crossentropy' -> 'binary_crossentropy' 로 수정
