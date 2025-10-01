@@ -26,7 +26,7 @@
 
 
 ## 🗂 Week 4
-- 📝 주제: 화이트 와인/유방암 데이터셋을 활용한 머신러닝 & 딥러닝 분류 실습  
+- 📝 주제: 화이트 와인 / 유방암 데이터셋을 활용한 머신러닝 & 딥러닝 분류 실습  
 - 📊 데이터셋: Wine Quality (White), Breast Cancer  
 - 📂 주요 파일:  
   - `week4/ML_winequality_white.ipynb`  
@@ -38,3 +38,18 @@
     - 유방암 데이터셋으로 **딥러닝 분류**  (Fully Connected Layer만 사용)
     - ⭐️ 'softmax' -> 'sigmoid' 로 수정
     - ⭐️ 'categorical_crossentropy' -> 'binary_crossentropy' 로 수정
+
+
+## 🗂 Week 5
+- 📝 주제: 필기체 숫자 / 당뇨병 데이터셋을 활용한 머신러닝 & 딥러닝 분류·회귀 실습  
+- 📊 데이터셋: Digits, Diabetes  
+- 📂 주요 파일:  
+  - `week5/ML_digits.ipynb`  
+    - Digits 데이터셋으로 **3가지 머신러닝 분류**  
+    - Decision Tree, Logistic Regression, Random Forest 비교  
+  - `week5/DL_digits.ipynb`  
+    - Digits 데이터셋으로 **딥러닝 분류 (MLP)**  
+    - Fully Connected Layer 기반, Dropout 포함  
+  - `week5/DL_diabetes.ipynb`  
+    - Diabetes 데이터셋으로 **딥러닝 회귀 (BMI 예측)**  
+    - Fully Connected Layer 기반, Dropout 포함 
