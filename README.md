@@ -56,22 +56,22 @@
    
 
 ## 🗂 Week 7
-- 📝 주제: Fashion-MNIST · MNIST · CIFAR-10 데이터셋을 활용한 딥러닝 분류 실습  
+- 📝 주제: Fashion-MNIST / MNIST / CIFAR-10 데이터셋을 활용한 딥러닝 분류 실습  
 - 📊 데이터셋: Fashion-MNIST (의류 이미지), MNIST (붓글씨 숫자), CIFAR-10 (컬러 이미지 데이터)  
 - 📂 주요 파일:
-- `week7/MNIST_fashion_DNN.ipynb`
-- Fashion-MNIST 데이터으로 **DNN 기반 분류** 
-- Flatten → Dense → Dropout → Softmax 구조  
-- 평가 지표 출력
-- `week7/MNIST_fashion_CNN.ipynb`
-- Fashion-MNIST 데이터셋으로 **CNN 기반 분류** 
-- Conv2D → MaxPooling2D → Flatten → Dropout → Dense → Softmax 구조  
-- 평가 지표 출력
-- `week7/MNIST_CNN.ipynb`
-- MNIST 데이터셋으로 **CNN 기반 분류**
-- Conv2D → MaxPooling2D → Flatten → Dropout → Dense → Softmax 구조
-- 평가 지표 출력
-- `week7/CIFAR-10_CNN.ipynb`
-- CIFAR-10 데이터셋 중 'cat', 'dog', 'horse' 3개 클래스만 선택하여 **CNN 기반 분류** 
-- Conv2D → MaxPooling2D → Flatten → Dropout → Dense → Softmax 구조
-- 평가 지표 출력
+  - `week7/MNIST_fashion_DNN.ipynb`
+	- Fashion-MNIST 데이터으로 **DNN 기반 분류** 
+	- Flatten → Dense → Dropout → Softmax 구조  
+	- 평가 지표 출력
+  - `week7/MNIST_fashion_CNN.ipynb`
+	- Fashion-MNIST 데이터셋으로 **CNN 기반 분류** 
+	- Conv2D → MaxPooling2D → Flatten → Dropout → Dense → Softmax 구조  
+	- 평가 지표 출력
+  - `week7/MNIST_CNN.ipynb`
+	- MNIST 데이터셋으로 **CNN 기반 분류**
+	- Conv2D → MaxPooling2D → Flatten → Dropout → Dense → Softmax 구조
+	- 평가 지표 출력
+  - `week7/CIFAR-10_CNN.ipynb`
+	- CIFAR-10 데이터셋 중 'cat', 'dog', 'horse' 3개 클래스만 선택하여 **CNN 기반 분류** 
+	- Conv2D → MaxPooling2D → Flatten → Dropout → Dense → Softmax 구조
+	- 평가 지표 출력
