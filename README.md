@@ -60,7 +60,7 @@
 - 📊 데이터셋: Fashion-MNIST (의류 이미지), MNIST (붓글씨 숫자), CIFAR-10 (컬러 이미지 데이터)  
 - 📂 주요 파일:
   - `week7/MNIST_fashion_DNN.ipynb`
-	- Fashion-MNIST 데이터으로 **DNN 기반 분류** 
+	- Fashion-MNIST 데이터셋로 **DNN 기반 분류** 
 	- Flatten → Dense → Dropout → Softmax 구조  
 	- 평가 지표 출력
   - `week7/MNIST_fashion_CNN.ipynb`
@@ -75,3 +75,19 @@
 	- CIFAR-10 데이터셋 중 'cat', 'dog', 'horse' 3개 클래스만 선택하여 **CNN 기반 분류** 
 	- Conv2D → MaxPooling2D → Flatten → Dropout → Dense → Softmax 구조
 	- 평가 지표 출력
+
+
+## 🗂 Week 9
+- 📝 주제: 시계열 데이터 예측 (RNN / LSTM 기반 시계열 분석 실습) 
+- 📊 데이터셋: Alcohol_Sales (미국 주류 판매량 월별 데이터), TSLA (테슬라 주가 일별 종가 데이터)
+- 📂 주요 파일:
+  - `week9/AlcoholSales_RNN_LSTM.ipynb`
+    - Alcohol_Sales 데이터셋을 활용하여 최근 12개월 데이터로 **다음 달 판매량 예측**
+	- RNN(SimpleRNN) / LSTM 비교  
+	- 각 모델별 Train/Test MSE 출력
+    - 예측 결과 및 그래프 시각화
+  - `week9/TSLA_RNN_LSTM.ipynb`
+    - TSLA 데이터셋을 활용하여 최근 60일 종가로 **다음날 종가를 예측**
+	- RNN(SimpleRNN) / LSTM 비교  
+	- 각 모델별 Train/Test MSE 출력
+    - 예측 결과 및 그래프 시각화
