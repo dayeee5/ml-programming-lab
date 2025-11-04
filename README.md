@@ -97,13 +97,23 @@
 - 📝 주제: 인체 활동 인식 (Human Activity Recognition) — 1D 시계열 분류  
 - 📊 데이터셋: UCI HAR Dataset (UCI Human Activity Recognition Using Smartphones)   
 - 📂 주요 파일:  
-  - `week10/UCI_HAR.ipynb`  
-    - 데이터 전처리  
-    - 모델 구성:  
-      - 총 5가지 1D 기반 딥러닝 모델 비교  
-        1. **Simple CNN**
-        2. **LSTM**   
-        3. **GRU**
-        4. **CNN + LSTM**
-        5. **CNN + GRU**
+  - `week10/UCI_HAR_SimpleCNN.ipynb`  
+    - StandardScaler 적용  
+    - 모델 구성: **Simple CNN**
+    - 평가 지표 출력
+  - `week10/UCI_HAR_LSTM.ipynb`  
+    - StandardScaler 적용 
+    - 모델 구성: **LSTM**
+    - 평가 지표 출력
+  - `week10/UCI_HAR_GRU.ipynb`  
+    - StandardScaler 적용 
+    - 모델 구성: **GRU**
+    - 평가 지표 출력
+  - `week10/UCI_HAR_CNN_LSTM.ipynb`  
+    - StandardScaler 적용  
+    - 모델 구성: **CNN+LSTM**
+    - 평가 지표 출력
+  - `week10/UCI_HAR_CNN_GRU.ipynb`  
+    - StandardScaler 적용 
+    - 모델 구성: **CNN+GRU**
     - 평가 지표 출력
