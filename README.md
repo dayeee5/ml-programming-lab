@@ -91,3 +91,19 @@
 	- RNN(SimpleRNN) / LSTM 비교  
 	- 각 모델별 Train/Test MSE 출력
     - 예측 결과 및 그래프 시각화
+
+
+## 🗂 Week 10
+- 📝 주제: 인체 활동 인식 (Human Activity Recognition) — 1D 시계열 분류  
+- 📊 데이터셋: UCI HAR Dataset (UCI Human Activity Recognition Using Smartphones)   
+- 📂 주요 파일:  
+  - `week10/UCI_HAR.ipynb`  
+    - 데이터 전처리  
+    - 모델 구성:  
+      - 총 5가지 1D 기반 딥러닝 모델 비교  
+        1. **Simple CNN**
+        2. **LSTM**   
+        3. **GRU**
+        4. **CNN + LSTM**
+        5. **CNN + GRU**
+    - 평가 지표 출력
