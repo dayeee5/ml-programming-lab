@@ -121,7 +121,7 @@
 ## 🗂 Week 11
 - 📝 주제: 이상 거래 탐지 (Creditcard) & 행동 인식 (WISDM)
 - 📊 데이터셋:
- 	- Creditcard (신용카드 사기 거래 탐지용 데이터)-*파일 용량이 커서 GitHub 업로드 제외*,
+ 	- Creditcard (신용카드 사기 거래 탐지용 데이터) - 파일 용량이 커서 GitHub 업로드 제외
     - WISDM (스마트폰/워치 센서 기반 인간 행동 인식 데이터)
 - 📂 주요 파일:
   - `week11/creditcard.ipynb`
