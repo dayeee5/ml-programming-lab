@@ -117,3 +117,17 @@
     - StandardScaler 적용 
     - 모델 구성: **CNN+GRU**
     - 평가 지표 출력
+
+## 🗂 Week 11
+- 📝 주제: 이상 거래 탐지 (Creditcard) & 행동 인식 (WISDM)
+- 📊 데이터셋: Creditcard (신용카드 사기 거래 탐지용 데이터)-*파일 용량이 커서 GitHub 업로드 제외*, WISDM (스마트폰/워치 센서 기반 인간 행동 인식 데이터)
+- 📂 주요 파일:
+  - `week11/creditcard.ipynb`
+	- creditcard.csv 데이터를 활용한 AutoEncoder 기반 이상 거래 탐지
+	- 정상 거래(0) 데이터만으로 학습하여 재구성 오차(Reconstruction Error) 기반으로 사기 거래(1) 판별
+	- 혼동 행렬 및 classification_report 출력
+  - `week11/WISDM.ipynb`
+	- WISDM.csv 데이터를 활용한 행동 인식 이진 분류 (Jogging vs Sitting)
+	- AutoEncoder 기반 비지도 학습 모델로 정상(조깅) 데이터를 학습하고, 비정상(앉기) 데이터를 재구성 오차로 탐지
+	- 데이터 전처리
+    - 혼동 행렬 및 classification_report 출력
